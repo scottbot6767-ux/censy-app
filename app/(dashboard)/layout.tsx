@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 import {
   LayoutDashboard, TrendingUp, FileText, Zap, MessageSquare,
   BarChart2, Settings, ChevronRight, Bell, Search, LogOut,
-  Users, Key, Puzzle, CreditCard, PieChart
+  Users, Key, Puzzle, CreditCard, PieChart, Mail
 } from 'lucide-react'
 
 const navItems = [
@@ -14,6 +14,7 @@ const navItems = [
   { label: 'Deals', href: '/dashboard/deals', icon: TrendingUp },
   { label: 'Surveys', href: '/dashboard/surveys', icon: FileText },
   { label: 'Triggers', href: '/dashboard/triggers', icon: Zap },
+  { label: 'Email', href: '/dashboard/email', icon: Mail },
   { label: 'Responses', href: '/dashboard/responses', icon: MessageSquare },
   {
     label: 'Analytics', href: '/dashboard/analytics', icon: BarChart2,
